@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore World</title>
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navbar Section  -->
+  <div class="bg-gray-800 fixed w-full top-0 left-0 z-50">
+    <div class="max-w-screen-xl mx-auto flex items-center justify-between p-4">
+      <!-- Logo Section with Website Name -->
+      <div class="flex items-center space-x-3">
+        <img src="images/logo.png" class="w-10" alt="Logo" />
+        <span class="text-white text-xl font-bold glow-text">Explore the World</span>
+      </div>
+      <!-- Search Bar -->
+      <div class="flex-1 mx-6">
+        <input 
+          type="text" 
+          placeholder="Search destinations..." 
+          class="w-full px-4 py-2 text-gray-900 rounded-lg focus:outline-none focus:ring-2 focus:ring-amber-400" 
+        />
+      </div>
+      <!-- Menu Section -->
+      <nav class="hidden md:flex space-x-6">
+        <a href="#home" class="text-white hover:text-amber-300">Home</a>
+        <a href="#about" class="text-white hover:text-amber-300">About</a>
+        <a href="#destinations" class="text-white hover:text-amber-300">Destinations</a>
+        <a href="#contact" class="text-white hover:text-amber-300">Contact</a>
+      </nav>
+    
+    </div>
+    <!-- Mobile Menu -->
+    
+  </div>
+
+  <!-- Hero Section -->
+  <section class="bg-no-repeat bg-cover bg-center h-screen mt-16" style="background-image: url('images/earth3.jfif');">
+    <div class="absolute top-50 left-40 right-40 bottom-0  h-3/4 bg-black bg-opacity-30"></div>
+    <!-- Content Box -->
+    <div class="relative z-10 flex flex-col items-center justify-center h-full px-6 text-center">
+      <div class="bg-gray-800 bg-opacity-80 p-8 rounded-lg shadow-xl shadow-white/35">
+        <h1 class="text-4xl font-semibold text-white md:text-6xl">Explore the World with us </h1>
+        <span class="block w-[400px] h-1 mt-7 bg-amber-200 mx-auto"></span>
+        <p class="mt-4 text-lg text-gray-300 md:text-2xl font-bold ">Discover Cultures, Create Memories</p>
+        <span class="block w-[400px] h-1 mt-7 bg-amber-200 mx-auto"></span>
+        <p class="mt-4 text-gray-300 font-bold tracking-[10px] uppercase">Your Journey Starts Here</p>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
